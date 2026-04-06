@@ -533,7 +533,11 @@
 </div>
 
 <script>
-  const API_BASE = "http://localhost:5000";
+  // ⚠️ IMPORTANT: For Netlify, replace this with your actual Render backend URL!
+  const API_BASE = "https://your-backend-name.onrender.com";
+  
+  // ⚠️ To test on your own computer again, comment the line above and uncomment the line below:
+  // const API_BASE = "http://localhost:5000";
   let history = [];      // [{role, content}, ...]
   let isLoading = false;
 
