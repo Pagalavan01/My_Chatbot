@@ -10,6 +10,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 load_dotenv()
 
 app = Flask(__name__)
+@app.route("/")
+def home():
+    return "Server running"
 CORS(app)
 
 # --- OpenRouter / Qwen Setup ---
