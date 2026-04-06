@@ -7,4 +7,5 @@ A personal RAG (Retrieval-Augmented Generation) chatbot powered by:
 
 ### How to run locally:
 ```bash
-streamlit run app.py
+python server.py
+```
