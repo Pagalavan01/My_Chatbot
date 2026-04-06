@@ -1,0 +1,24 @@
+
+# Virtual Environment
+venv/
+venv2/
+env/
+.venv/
+env/
+
+# Chroma database (local vector DB)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (important!)
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+>>>>>>> 5f70360 (first commit)
