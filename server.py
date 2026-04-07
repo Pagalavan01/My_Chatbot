@@ -38,7 +38,8 @@ FREE_MODELS = [
 db_folder = "chroma_db"
 
 if not os.path.exists(db_folder):
-    raise RuntimeError(f"Chroma database not found at '{db_folder}'. Run ingest_local.py first.")
+    print("Chroma DB not found. Creating...")
+    os.system("python ingest_local.py")
 
 print("Loading embedding model...")
 embeddings = HuggingFaceEmbeddings(
