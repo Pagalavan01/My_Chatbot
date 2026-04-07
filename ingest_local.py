@@ -69,4 +69,3 @@ vectorstore = Chroma.from_texts(
 
 print(f"Success! Database saved to '{db_folder}'")
 print(f"Total chunks stored: {vectorstore._collection.count()}")
-print("You can now run the Streamlit app — it will use this local database.")
